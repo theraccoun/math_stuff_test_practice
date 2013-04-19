@@ -19,5 +19,15 @@ public class MathStuff {
         System.out.println(square(2));
     }
 
+    public static boolean isPrime(int n)
+    {
+        if(n%2==0){return false;}
+
+        for(int d=3;d*d<=n;++d)
+        {
+            if(n%d==0){return false;}
+        }
+        return true;
+    }
 
 }
