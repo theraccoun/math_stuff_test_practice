@@ -22,4 +22,14 @@ public class MathStuffTest {
         assert MathStuff.square(param) == expected;
 
     }
+
+    public void testIsPrime() throws Exception
+    {
+        int param;
+        boolean expected;
+
+        param = 7;
+        expected = true;
+        assert MathStuff.isPrime(param) == expected;
+    }
 }
