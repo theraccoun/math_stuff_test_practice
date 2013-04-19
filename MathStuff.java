@@ -30,4 +30,9 @@ public class MathStuff {
         return true;
     }
 
+    public static int add(int x, int y)
+    {
+        return x+y;
+    }
+
 }
